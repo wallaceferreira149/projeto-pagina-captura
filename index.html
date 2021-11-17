@@ -4,27 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/imgs/ico.png">
   <title>Projeto Página de Captura</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="container">
-    <header>
-      <nav>
-        <span class="logo">
-          <img src="#" alt="#">
-        </span>
-        <ul class="nav-bar">
-          <li>Contato</li>
-          <li>Saiba mais</li>
-        </ul>
-      </nav>
-      <main>
-  
-      </main>
-      <footer>
-  
-      </footer>
+    <header>  
+      <h1 id="title" >Participe do Workshop que irá mudar a sua vida</h1>
     </header>
+    <main id="content">
+      <section class="form-container">
+        <h2 class="subtitle mb">Garanta o seu lugar no maior workshop do maior especialista em React da atualidade</h2>
+        <p class="text mb">Nesse evento, você vai aprender todos os segredos que vão te fazer ser um desenvolvedor de sucesso, sem precisar contar com a sorte.</p>
+        <form action="#" method="GET">
+          <input id="name" type="text" name="name" placeholder="Nome">
+          <input id="email" type="email" name="email" placeholder="e-mail" placeholder="Email">
+          <select name="place" id="place">
+            <option value="rj">RJ</option>
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="ro">RO</option>
+          </select>
+          <input type="submit" value="INSCREVA-SE">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img src="./assets/imgs/face.jpg" alt="palestrante" class="picture">
+      <div class="description">
+        <h3>Palestrante</h3>
+        <p>
+          Wallace Ferreira é conhecido como mestre. Atende por essa alcunha por demonstrar elevada coragem em combate contra todo tipo de inimigo.
+        </p>
+        <p>Formado em Ciências Aeronáuticas e Administração busca incansavelmente por alguma coisa que lhe dê dinheiro de verdade.</p>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
